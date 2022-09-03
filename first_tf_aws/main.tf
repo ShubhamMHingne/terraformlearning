@@ -5,5 +5,4 @@ provider "aws" {
 
 resource "aws_s3_bucket" "firstbucket" {
   bucket = "firstbucketfromtf-shubhamh"
-  acl    = "private"
 }
